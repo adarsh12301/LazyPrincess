@@ -1,7 +1,7 @@
 {
     "name": "LazyPrincess",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
-    "stack": "container",
+    "stack": "heroku-22"
     "keywords": [
       "telegram",
       "auto-filter",
@@ -111,9 +111,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "Eco"
-    }],
-         "stack": "heroku-22"
+            "size": "Eco"         
     }
  }
 }
